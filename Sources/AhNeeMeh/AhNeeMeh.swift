@@ -4,7 +4,7 @@ struct AhNeeMeh {
     var text = "Hello, World!"
 }
 
-extension CGPoint {
+public extension CGPoint {
     static func -(lhs: CGPoint, rhs: CGPoint) -> CGPoint {
         CGPoint(x: lhs.x-rhs.x, y: lhs.y-rhs.y)
     }
