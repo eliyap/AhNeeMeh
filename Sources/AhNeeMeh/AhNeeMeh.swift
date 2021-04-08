@@ -17,7 +17,7 @@ public extension CGPoint {
     }
     static func +=(lhs: inout CGPoint, rhs: CGPoint) {
         lhs.x += rhs.x
-        lhs.y += lhs.y
+        lhs.y += rhs.y
     }
 }
 
@@ -34,6 +34,6 @@ public extension CGSize {
     }
     static func +=(lhs: inout CGSize, rhs: CGSize) {
         lhs.width += rhs.width
-        lhs.height += lhs.height
+        lhs.height += rhs.height
     }
 }
